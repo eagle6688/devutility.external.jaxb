@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.eagle6688</groupId>
+		<artifactId>devutility.external</artifactId>
+		<version>1.2.0</version>
+	</parent>
+	<artifactId>devutility.external.jaxb</artifactId>
+	<version>1.0.0</version>
+	<url>https://github.com/eagle6688/devutility.external.jaxb</url>
+	<name>${project.groupId}:${project.artifactId}</name>
+	<description>Some utilities for jaxb</description>
+
+	<!-- scm -->
+	<scm>
+		<connection>scm:git:https://github.com/eagle6688/devutility.external.jaxb.git</connection>
+		<developerConnection>scm:git:https://github.com/eagle6688/devutility.external.jaxb.git</developerConnection>
+		<url>https://github.com/eagle6688/devutility.external.jaxb</url>
+		<tag>v${project.version}</tag>
+	</scm>
+	<!-- scm end -->
+
+	<!-- dependencies -->
+	<dependencies>
+		<dependency>
+			<groupId>com.github.eagle6688</groupId>
+			<artifactId>devutility.internal</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+	</dependencies>
+	<!-- dependencies end -->
+</project>
